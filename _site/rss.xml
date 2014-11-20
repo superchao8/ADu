@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+        <title>ADu.Blog</title>
+        <description>ADu.Blog - super</description>
+        <link>http://ADu.github.io</link>
+        <link>http://ADu.github.io</link>
+        <lastBuildDate>2014-11-20T13:58:21+08:00</lastBuildDate>
+        <pubDate>2014-11-20T13:58:21+08:00</pubDate>
+        <ttl>1800</ttl>
+
+
+        <item>
+                <title>Jekyll not working after upgrade to Yosemite</title>
+                <description>
+&lt;pre&gt;&lt;code&gt;I solved this issue by updating Xcode command tool:
+
+xcode-select --install
+
+Then, reinstalling Jekyll.
+&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+                <link>http://ADu.github.io/lessons/2014/11/19/second</link>
+                <guid>http://ADu.github.io/lessons/2014/11/19/second</guid>
+                <pubDate>2014-11-19T00:00:00+08:00</pubDate>
+        </item>
+
+
+</channel>
+</rss>

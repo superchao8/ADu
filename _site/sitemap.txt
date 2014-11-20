@@ -1,0 +1,11 @@
+
+http://ADu.github.io/archive.html
+http://ADu.github.io/atom.xml
+http://ADu.github.io/categories.html
+http://ADu.github.io/index.html
+http://ADu.github.io/pages.html
+http://ADu.github.io/rss.xml
+http://ADu.github.io/sitemap.txt
+http://ADu.github.io/tags.html
+
+http://ADu.github.io/lessons/2014/11/19/second
