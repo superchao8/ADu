@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>ADu.Blog</title>
+ <title>super.Blog</title>
  <link href="http://ADu.github.io/" rel="self"/>
  <link href="http://ADu.github.io"/>
- <updated>2014-11-20T13:58:21+08:00</updated>
+ <updated>2014-11-24T09:45:20+08:00</updated>
  <id>http://ADu.github.io</id>
  <author>
    <name>super</name>
    <email>xmdych87@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Cornerstone ignore UserInterfaceState.xcuserstate</title>
+   <link href="http://ADu.github.io/%E7%97%95%E8%BF%B9/2014/11/21/Cornerstone-ignore-UserInterfaceState.xcuserstate"/>
+   <updated>2014-11-21T00:00:00+08:00</updated>
+   <id>http://ADu.github.io/%E7%97%95%E8%BF%B9/2014/11/21/Cornerstone-ignore-UserInterfaceState.xcuserstate</id>
+   <content type="html">
+&lt;p&gt;在控制台 &lt;em&gt;cd&lt;/em&gt; 到项目目录下
+&lt;em&gt;svn -v status&lt;/em&gt; 查看文件的状态(M):&lt;/p&gt;
+
+&lt;p&gt;M   33769    33757 xxx         XXX.xcworkspace/xcuserdata/XXX.xcuserdatad/UserInterfaceState.xcuserstate&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;svn delete --keep-local --force xcuserdata/user.xcuserdatad/UserInterfaceState.xcuserstate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;此时，Cornerstone会显示它的状态为”？”,右键Ignore。解决了，世界清静了:]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PS:&lt;/strong&gt;
+added *.xcuserstate to the Global Ignores 
+	(Cornerstone -&amp;gt; Preferences -&amp;gt; Subversion -&amp;gt; turn off Use default global ignores -&amp;gt; add “*.xcuserstate”)&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Jekyll not working after upgrade to Yosemite</title>

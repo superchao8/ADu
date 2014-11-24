@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>ADu.Blog</title>
-        <description>ADu.Blog - super</description>
+        <title>super.Blog</title>
+        <description>super.Blog - super</description>
         <link>http://ADu.github.io</link>
         <link>http://ADu.github.io</link>
-        <lastBuildDate>2014-11-20T13:58:21+08:00</lastBuildDate>
-        <pubDate>2014-11-20T13:58:21+08:00</pubDate>
+        <lastBuildDate>2014-11-24T09:45:20+08:00</lastBuildDate>
+        <pubDate>2014-11-24T09:45:20+08:00</pubDate>
         <ttl>1800</ttl>
 
+
+        <item>
+                <title>Cornerstone ignore UserInterfaceState.xcuserstate</title>
+                <description>
+&lt;p&gt;在控制台 &lt;em&gt;cd&lt;/em&gt; 到项目目录下
+&lt;em&gt;svn -v status&lt;/em&gt; 查看文件的状态(M):&lt;/p&gt;
+
+&lt;p&gt;M   33769    33757 xxx         XXX.xcworkspace/xcuserdata/XXX.xcuserdatad/UserInterfaceState.xcuserstate&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;svn delete --keep-local --force xcuserdata/user.xcuserdatad/UserInterfaceState.xcuserstate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;此时，Cornerstone会显示它的状态为”？”,右键Ignore。解决了，世界清静了:]&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PS:&lt;/strong&gt;
+added *.xcuserstate to the Global Ignores 
+	(Cornerstone -&amp;gt; Preferences -&amp;gt; Subversion -&amp;gt; turn off Use default global ignores -&amp;gt; add “*.xcuserstate”)&lt;/p&gt;
+</description>
+                <link>http://ADu.github.io/%E7%97%95%E8%BF%B9/2014/11/21/Cornerstone-ignore-UserInterfaceState.xcuserstate</link>
+                <guid>http://ADu.github.io/%E7%97%95%E8%BF%B9/2014/11/21/Cornerstone-ignore-UserInterfaceState.xcuserstate</guid>
+                <pubDate>2014-11-21T00:00:00+08:00</pubDate>
+        </item>
 
         <item>
                 <title>Jekyll not working after upgrade to Yosemite</title>

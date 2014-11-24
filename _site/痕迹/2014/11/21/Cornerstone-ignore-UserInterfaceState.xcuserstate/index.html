@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Hello Jekyll!</title>
+    <title>Cornerstone ignore UserInterfaceState.xcuserstate</title>
     
     <meta name="author" content="super">
 
@@ -106,21 +106,87 @@
       <div class="content">
         
 <div class="page-header">
-  <h1>Hello Jekyll!  <small>Supporting tagline</small></h1>
+  <h1>Cornerstone ignore UserInterfaceState.xcuserstate <small>ios</small></h1>
 </div>
 
-<div class="row-fluid">
+<div class="row-fluid post-full">
   <div class="span12">
+    <div class="date">
+      <span>21 November 2014</span>
+    </div>
+    <div class="content">
+      
+<p>在控制台 <em>cd</em> 到项目目录下
+<em>svn -v status</em> 查看文件的状态(M):</p>
+
+<p>M   33769    33757 xxx         XXX.xcworkspace/xcuserdata/XXX.xcuserdatad/UserInterfaceState.xcuserstate</p>
+
+<pre><code>svn delete --keep-local --force xcuserdata/user.xcuserdatad/UserInterfaceState.xcuserstate
+</code></pre>
+
+<p>此时，Cornerstone会显示它的状态为”？”,右键Ignore。解决了，世界清静了:]</p>
+
+<p><strong>PS:</strong>
+added *.xcuserstate to the Global Ignores 
+	(Cornerstone -&gt; Preferences -&gt; Subversion -&gt; turn off Use default global ignores -&gt; add “*.xcuserstate”)</p>
+
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-folder-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#痕迹-ref">
+    		痕迹 <span>1</span>
+    	</a></li>
     
-<ul class="posts">
   
-    <li><span>21 Nov 2014</span> &raquo; <a href="/%E7%97%95%E8%BF%B9/2014/11/21/Cornerstone-ignore-UserInterfaceState.xcuserstate">Cornerstone ignore UserInterfaceState.xcuserstate</a></li>
-  
-    <li><span>19 Nov 2014</span> &raquo; <a href="/lessons/2014/11/19/second">Jekyll not working after upgrade to Yosemite</a></li>
-  
-</ul>
 
 
+    </ul>
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="icon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#xcode-ref">xcode <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#svn-ref">svn <span>1</span></a></li>
+     
+    	<li><a href="/tags.html#tutorial-ref">tutorial <span>2</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+
+    <hr>
+    <div class="pagination">
+      <ul>
+      
+        <li class="prev"><a href="/lessons/2014/11/19/second" title="Jekyll not working after upgrade to Yosemite">&larr; Previous</a></li>
+      
+        <li><a href="/archive.html">Archive</a></li>
+      
+        <li class="next disabled"><a>Next &rarr;</a>
+      
+      </ul>
+    </div>
+    <hr>
+    
   </div>
 </div>
 

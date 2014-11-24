@@ -8,4 +8,5 @@ http://ADu.github.io/rss.xml
 http://ADu.github.io/sitemap.txt
 http://ADu.github.io/tags.html
 
+http://ADu.github.io/%E7%97%95%E8%BF%B9/2014/11/21/Cornerstone-ignore-UserInterfaceState.xcuserstate
 http://ADu.github.io/lessons/2014/11/19/second
